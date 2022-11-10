@@ -1,0 +1,133 @@
+body {
+    margin:0;
+}
+/* STILOS DEL HEADER*/
+header {
+    border-bottom: 5px solid rgb(191, 190, 190);
+}
+/*header div {
+    border:1px solid black;
+}*/
+div {
+    display: inline-block;
+}
+#alreadyAndSign {
+  position: absolute;
+  top: 30px;
+}
+#imagenLogo {
+    width: 20%;
+    padding: 10px 0px 10px 60px;
+}
+#div_imagen {
+    width: 80%;
+}
+#already {
+    width: 100%
+}
+/*-----ESTILOS DEL FORMULARIO----*/
+
+/*TEXTO CREATE*/
+#create {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/*BOTONES GOOGLE Y FACEBOOK*/
+main {
+    /*border: 1px solid black;*/
+    margin-left: 15%;
+    margin-top: 8%;
+}
+main button {
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+main img {
+    height: 30px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left:-17%;
+}
+main button a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center; /*no puedo mover el texto al centro*/
+}
+a:hover {
+    cursor:pointer;
+}
+#btn_Google {
+    background-color: rgb(134, 182, 250);
+    width: 180px;
+}
+#btn_Facebook {
+    background-color: rgb(49, 86, 221);
+    width: 220px;
+}
+
+/*TEXTO "OR WITH"*/
+#tx_with  {
+    font-family: sans-serif;
+    margin:40px 0px;
+}
+
+/*FORM MAIL- PASSWORD- BTN ACCOUNT*/
+
+.input_mail_passw {
+    width: 500px;
+    min-height: 25px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+.label_mail_passw {
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 500px;
+}
+
+form div label a {
+    text-decoration: none;
+    color:rgb(49, 86, 221);
+}
+#accept {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#btn_account {
+    border-style: dashed;
+    border-color: rgb(209, 205, 205);
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px 45px;
+    background-color: transparent;
+}
+#tx_create_account {
+    color: rgb(209, 205, 205);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/*----------FOOTER--------*/
+footer {
+    border-top: 5px solid rgb(191, 190, 190);
+    height: 150px;
+    margin-top: 80px;
+}
+footer a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#footer_issuu {
+    margin: 3000px 100px 0px 70px;
+}
+#footer {
+    margin-top: 50px;
+}

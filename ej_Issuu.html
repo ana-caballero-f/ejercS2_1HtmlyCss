@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_Issuu.css">
+</head>
+<body>
+    <!--EMPIEZA EL HEADER-->
+    <header>
+        <div id="div_imagen">
+            <img src="logoIssuu.png" alt="logo Issuu" id="imagenLogo">
+        </div>
+        <div id="alreadyAndSign">
+            <div id="already">Already a user?</div>
+            <div id="sing"><a href="#">Sign in</a></div>
+        </div>
+    </header>
+    <!--TERMINA EL HEADER-->
+
+    <!--COMIENZA MAIN-->
+    <main>
+        <!--p Y bottons Google y Facebook-->
+        <p id="create">Create an Issuu Account.</p>
+        <button id="btn_Google">
+            <img id="img_Google" src="logoGoogle.png" >
+            <span><a href="#">Iniciar con Google</a></span>
+        </button>
+
+        <button id="btn_Facebook">
+            <img id="img_Facebook" src="Logo_de_Facebook.png" >
+            <span><a href="#">Iniciar con Facebook</a></span>
+        </button>
+
+        <!--p Y formulario mail y password-->
+        <p id="tx_with">or with email</p>
+
+        <form>
+            <div>
+                <label for="mail"  class="label_mail_passw">Email</label><br>
+                <input type="email"  class="input_mail_passw" for="mail" name="mail" placeholder="e.g.nombre@emai.com"><br>
+                        
+                <label for="password" class="label_mail_passw">Password</label><br>
+                <input type="password" class="input_mail_passw" for="password" name="password"><br>
+            </div> 
+            <div id="accept">
+                <input type="checkbox" name="accept" required> 
+                <label>I accept the <a href="#" id="terms">Terms of Service</a> and the <a href="#">Profesional Terms fo Service.</a>
+                </label>
+            </div>
+            <div>
+                <button id="btn_account"><a href="#" id="tx_create_account">CREATE ACCOUNT</a></button>
+            </div>
+        </form>
+    </main>
+    <!--TERMINA MAIN-->
+
+    <!--COMIENZA FOOTER-->
+    <footer>
+        <div id="footer">
+            <span id="footer_issuu"><a href="https://issuu.com/">Issuu Inc.</a></span>
+            <span><a href="#terms">Terms</a></span>
+            <span><a href="#">Privacy</a></span>
+            <span><a href="#">DMCA</a></span>
+        </div>
+    </footer>
+</body>
+</html>
